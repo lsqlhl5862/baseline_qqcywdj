@@ -1,15 +1,16 @@
+
 使用到的库以及版本：
 pandas 0.25.3
 numpy  1.18.1
-pdfplumber 0.5.22
+pdfplumber 0.5.22(pip install pdfplumber)
 tqdm   4.48.0
 sklearn  0.21.3
 scipy  1.2.1
-jieba  0.39
-tensorflow 1.9.0
-gensim  3.8.1
-keras  2.2.4
-
+jieba  0.39(pip install jieba)
+tensorflow 1.9.0(pip install tensorflow)
+gensim  3.8.1(pip install gensim)
+keras  2.2.4(pip install keras)
+git branch --set-upstream-to=baseline_qqcywdj/master master
 分析赛题和数据格式可以发现需要预测的label有13个字段
 数据分为三类数据，分别采用不同方法抽取
 
