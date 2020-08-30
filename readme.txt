@@ -1,4 +1,32 @@
 
+8月30日更新
+1、请将test.csv、train.csv放在datasets目录下，否则要花4个小时处理所有PDF
+2、验证集某个字段的分数可以参考以下代码:
+
+  def get_F1(val_pred, val_true):
+      val_pred = list(val_pred)
+      val_true = list(val_true)
+      curr = list(set(val_pred).intersection(set(val_true)))
+      R = len(curr)/len(val_true)
+      P = len(curr)/len(val_pred)
+      return 2*P*R/(P+R)
+
+  r = pd.merge(val_df[['sample_id']], train_outputs, on='sample_id', how='left')
+  val_true = r['sample_id'].astype(str) + r['认购日期'].astype(str) + r['理财产品名称'].astype(str) + r['理财类型'].astype(str) + r['认购金额(万元)'].astype(str) + r['产品起息日'].astype(str)+ r['产品到息日'].astype(str) + r['产品期限'].astype(str) + r['资金来源'].astype(str) + r['实际购买公司名称'].astype(str) + r['实际购买公司和上市公司关系'].astype(str) + r['买卖方是否有关联关系'].astype(str) + r['公告日期'].astype(str)
+
+  r = val_result
+  val_pred = r['sample_id'].astype(str) + r['认购日期'].astype(str) + r['理财产品名称'].astype(str) + r['理财类型'].astype(str) + r['认购金额(万元)'].astype(str) + r['产品起息日'].astype(str)+ r['产品到期日'].astype(str) + r['产品期限'].astype(str) + r['资金来源'].astype(str) + r['实际购买公司名称'].astype(str) + r['实际购买公司和上市公司关系'].astype(str) + r['买卖方是否有关联关系'].astype(str) + r['公告日期'].astype(str)
+
+  score = get_F1(val_pred, val_true)
+  score
+  
+  只需要选择对应的字段ID即可计算
+3、results\re_lstm_base.csv 是baseline的运行结果
+4、results\true_vs_pred.csv是baseline验证对比的结果
+5、目前暂无true_vs_pred.csv，原因是预测和实际行数完全不匹配，大多数的Pdf都有存在多预测的情况，这是首先要解决的问题——————梁洪亮、傅逸雯（切割逻辑）
+6、理财产品名称几乎对不上，这是第二要解决的问题———————杨志玮、魏嘉辰（切割逻辑）
+7、日期问题为第三要解决的问题，等上述问题处理好再议。
+---------------
 使用到的库以及版本：
 pandas 0.25.3
 numpy  1.18.1
@@ -10,6 +38,7 @@ jieba  0.39(pip install jieba)
 tensorflow 1.9.0(pip install tensorflow)
 gensim  3.8.1(pip install gensim==3.8.1)
 keras  2.2.4(pip install keras)
+
 git branch --set-upstream-to=baseline_qqcywdj/master master
 分析赛题和数据格式可以发现需要预测的label有13个字段
 数据分为三类数据，分别采用不同方法抽取
