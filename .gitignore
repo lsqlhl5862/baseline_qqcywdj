@@ -7,3 +7,4 @@
 *.json
 *.csv
 models/*
+_pycache_/*
