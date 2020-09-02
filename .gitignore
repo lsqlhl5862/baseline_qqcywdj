@@ -8,3 +8,4 @@
 *.csv
 models/*
 _pycache_/*
+src/__pycache__/*
