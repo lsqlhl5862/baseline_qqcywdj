@@ -39,3 +39,8 @@ print(pppp)
 head_row_a=re.split('年',my_str)[0]
 
 print(head_row_a)
+
+text_row1="子公司佛山欧神诺云商科技有限公司（以下简称“欧神诺云商”）购买"
+regex = "(子公司.*公司.*购买)"
+text1 = re.findall(regex, text_row1)
+print(text1)
