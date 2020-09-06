@@ -9,3 +9,4 @@
 models/*
 _pycache_/*
 src/__pycache__/*
+!TextGrocery-master.zip
