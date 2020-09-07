@@ -9,3 +9,7 @@
 models/*
 _pycache_/*
 src/__pycache__/*
+!TextGrocery-master.zip
+lhl/productOrcounter/*
+*.svm
+lhl/wordSelector/*
