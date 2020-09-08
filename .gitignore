@@ -13,3 +13,5 @@ src/__pycache__/*
 lhl/productOrcounter/*
 *.svm
 lhl/wordSelector/*
+wjc/productOrcounter/*
+wjc/*.svm
