@@ -52,3 +52,7 @@ def wjc_spl(text):
     return spl1
 bbb=wjc_spl(text_row1)
 print(bbb)
+
+
+bbb=[1,2]
+print(bbb)
