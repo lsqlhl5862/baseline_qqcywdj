@@ -56,3 +56,16 @@ print(bbb)
 
 bbb=[1,2]
 print(bbb)
+
+
+
+str111='111^1^1111'
+str111=str111.replace('^([0-9])^','^')
+str111=re.sub('\^[0-9]\^','^',str111)
+print(str111)
+
+
+str000='我是中国人（0我5n'
+str999=re.sub("[（][^）]*?[\^]*$",'',str000)
+print(str999)
+print(re.sub('[^\u4e00-\u9fa5]*','',str000))
