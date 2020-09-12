@@ -69,3 +69,13 @@ str000='我是中国人（0我5n'
 str999=re.sub("[（][^）]*?[\^]*$",'',str000)
 print(str999)
 print(re.sub('[^\u4e00-\u9fa5]*','',str000))
+
+
+
+dic = {}
+dic["十月"] = "流火"   #暴力添加
+print(dic)
+
+
+print(dic)
+print(dic.setdefault("五月") )
