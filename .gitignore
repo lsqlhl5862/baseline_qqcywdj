@@ -16,3 +16,4 @@ lhl/wordSelector/*
 wjc/productOrcounter/*
 wjc/*.svm
 productOrcounter/*
+*.txt
