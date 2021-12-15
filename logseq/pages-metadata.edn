@@ -1,21 +1,21 @@
 [{:block/name "12.14罗总机构调研",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "a",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
  {:block/name "b",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "c",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "card",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
  {:block/name "contents",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "dec 14th, 2021",
   :block/created-at 1639440000000,
   :block/updated-at 1639440000000}
@@ -29,116 +29,131 @@
   :block/created-at 1639699200000,
   :block/updated-at 1639699200000}
  {:block/name "doing",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "done",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "favorites",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
  {:block/name "in-progress",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "later",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "now",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "todo",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "wait",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "waiting",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
  {:block/name "东街支行",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
  {:block/name "人事监察部",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "信息科技部",
   :block/created-at 1639565984380,
   :block/updated-at 1639572300917}
  {:block/name "兴业银行",
   :block/created-at 1639562297586,
-  :block/updated-at 1639573264101}
+  :block/updated-at 1639574285085}
  {:block/name "兴魔方任务目录",
   :block/created-at 1639561545933,
-  :block/updated-at 1639573153981}
+  :block/updated-at 1639574225521}
  {:block/name "分行营业部",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "华林支行",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "发票报销管理平台",
   :block/created-at 1639573141813,
-  :block/updated-at 1639573152524}
+  :block/updated-at 1639573323907}
  {:block/name "应用开发",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
- {:block/name "张梅玲",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
  {:block/name "押品管理",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639573763110,
+  :block/updated-at 1639573766147}
  {:block/name "晋安支行",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "智慧信贷",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
+ {:block/name "李玲清",
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "杨桥支行",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "林瑶",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
+ {:block/name "梁洪亮",
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
  {:block/name "梅芳钰",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
  {:block/name "江滨支行",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "法律与合规部",
   :block/created-at 1639562288502,
   :block/updated-at 1639570600929}
+ {:block/name "洪敏",
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
  {:block/name "科技部",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
  {:block/name "第一次数字化转型头脑风暴",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
+ {:block/name "胡文楷",
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
  {:block/name "计划财务部",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "运营管理部",
   :block/created-at 1639562307426,
   :block/updated-at 1639570867849}
  {:block/name "郭上冉",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913554,
+  :block/updated-at 1639574913554}
+ {:block/name "钟明雪",
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
+ {:block/name "陈仕星",
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "陈立",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639574913556,
+  :block/updated-at 1639574913556}
  {:block/name "零售金融部",
-  :block/created-at 1639573273688,
-  :block/updated-at 1639573273688}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "零贷线上化",
-  :block/created-at 1639573273687,
-  :block/updated-at 1639573273687}
+  :block/created-at 1639574913555,
+  :block/updated-at 1639574913555}
  {:block/name "项目：智慧信贷",
   :block/created-at 1639569466992,
   :block/updated-at 1639571584412}
  {:block/name "项目：零贷线上化改造",
   :block/created-at 1639569420681,
-  :block/updated-at 1639572123456}
+  :block/updated-at 1639573739833}
  {:block/name "风险管理部",
-  :block/created-at 1639573273688, 
-  :block/updated-at 1639573273688}]
+  :block/created-at 1639574913555, 
+  :block/updated-at 1639574913555}]
